@@ -1,5 +1,6 @@
 SRC += source.c
-RGBLIGHT_ENABLE = yes    # Enable WS2812 RGB underlight.
+RGBLIGHT_ENABLE = no
+RGB_MATRIX_ENABLE = yes
 OLED_ENABLE     = yes
 OLED_DRIVER     = SSD1306
 LTO_ENABLE      = yes
